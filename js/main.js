@@ -1,7 +1,7 @@
 //spausdiname sveikaji skaiciu
-console.log(8415584)
+console.log(8415584);
 
-//du skaiciai vs desimtainis - kaip veikia ir koks?
+//du skaiciai vs desimtainis - kaip veikia ir koks yra kablelis
 console.log(3, 14);
 console.log(3.14);
 
@@ -13,7 +13,6 @@ console.log('Labas rytas');
 /**************************
  * KINTAMIEJI
  ************************/
-
 /*
  Inicijavimo budai:
  const - default, tai musu pirmasis pasirinkimas
@@ -24,20 +23,20 @@ console.log('Labas rytas');
  /* 
  Kintamuju tipai (pagal reiksmes):
      skaiciai (number)-  2020, 3.14, -7, -5.144
-     tekstai(string) - "labas", 'ka tu?', ';',
+     tekstai (string) - "labas", 'ka tu?', ';'
      logines (boolean) - true, false
      sarasai (array) - []
      objektai (object) - {}
 
 */
 
-const pirmasskaicius = 7;
-const antrasskaicius = 3;
-const suma = pirmasskaicius + antrasskaicius;
+const pirmasSkaicius = 7;
+const antrasSkaicius = 3;
+const suma = pirmasSkaicius + antrasSkaicius;
 
 console.log(suma;)
 
-console.log(pirmasskaicius, '+',antrasskaicius, '=', suma);
+console.log(pirmasSkaicius, '+',antrasSkaicius, '=', suma);
 
 const vardas= 'Vardenis';
 const amzius = 99;
@@ -72,7 +71,7 @@ const age = currentYear - birth;
 const sakinys3 = heroName + ' ' + heroLastname + ' (' + age + ')';
 console.log(sakinys3);
 
-console.clear
+console.clear();
 
 let pinigine = 7;
 const sausis = 100;
