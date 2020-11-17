@@ -82,3 +82,4 @@ money = 200
 pavedimas = 200
 
 money 
+
