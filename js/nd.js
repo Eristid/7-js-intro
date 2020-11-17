@@ -26,7 +26,7 @@ console.log(marks);
 const lottery = [13, 7, 24, 2];
 console.log(lottery);
 
-const cities = ['Big Apple (NY)', 'Sydney', 'Lisabona', 'Troskunai', 'Los Angeleles (LA)'];
+const cities = ['Big Apple (NY)', 'Sydney', 'Lisabona', 'Troskunai', 'Los Angel (LA)'];
 console.log(cities);
 
 const names = ['Chuck', 'Bruce', 'Wonder Woman', 'Algimantas', 'Walter', 'Xena'];
@@ -75,11 +75,3 @@ allCities = allCities + ', ' + cities[1];
 allCities = allCities + ', ' + cities[0];
 
 console.log(allCities);
-
-
-money = 200
-
-pavedimas = 200
-
-money 
-
