@@ -61,47 +61,47 @@ for (let i = 0; i < miestai.length; i++) {
 
 console.log('------------');
 
+/*
+Isvardinti saraso narius is galo.
+*/
 
-/**
- Isvardinti saraso narius is galo.
- */
+const abc = ['a', 'b', 'c', 'd', 'e', 'f'];
 
- const abs = ['a', 'b', 'c', 'd', 'e', 'f'];
+for (let i = abc.length - 1; i >= 0; i--) {
+    console.log(abc[i]);
+}
 
- console.log(abc);
+console.log('-------------');
+console.clear();
 
- for(let pozicija) = abc.length - 1; pozicija >= 0; pozicija--) {
-     console.log(abc[i]);
-
- }
-
- console.log('-------------');
- console.clear();
-
-//  const text = 'dodekahedronas';
-const.text = 'ottoman';
+// const text = 'dodekahedronas';
+const text = 'ottoman';
 
 for (let i = 0; i < text.length; i++) {
     console.log(text[i]);
 }
+
 console.log(text.length);
 
-console.log ('-----------');
+console.log('-------------');
 
-/**
- Duodamas zodis ir is jo reikia issirinkti kas antra raide ir ispausdinti kas gaunasi
- pvz.: abcdef -> bdf
- */
+/*
+Duodamas zodis ir is jo reikia isrinkti kas antra raide ir isspausdinti kas gaunasi.
+pvz.: abcdef -> bdf
+pvz.: pomidoras (2) -> oioa
+pvz.: pomidoras (3) -> mos
+pvz.: pomidoras (4) -> ia
+pvz.: pomidoras (5) -> d
+*/
 
 const zodis = 'pomidoras';
-let rez = 'bdf'
+const step = 2;
+const pirmosRaidesPozicija = step - 1;
+let rez = '';
 
-
-for (let i=0; i<zodis.length; i++) {
-    const raide = zodis [i];
-    console.log(raide[i]);
-
+for (let i = pirmosRaidesPozicija; i < zodis.length; i = i + step) {
+    const raide = zodis[i];
+    rez = rez + raide;
 }
 
-
-
+console.log(rez);
