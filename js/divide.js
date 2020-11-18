@@ -12,3 +12,4 @@ for (let i = nuo; i <= iki; i++) {
 }
 
 console.log(`Skaičių intervale tarp ${nuo} ir ${iki}, besidalijančių be liekanos iš ${daliklis} yra ${kiekis} vienetai.`);
+
